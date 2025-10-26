@@ -1,0 +1,72 @@
+:root {
+  color-scheme: light;
+  font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-feature-settings: 'kern';
+  --sm-bg: #f4f6ff;
+  --sm-surface: #ffffff;
+  --sm-surface-soft: #f2f3ff;
+  --sm-surface-glass: rgba(255, 255, 255, 0.65);
+  --sm-surface-glass-border: rgba(109, 119, 255, 0.2);
+  --sm-border: #dee1f7;
+  --sm-border-strong: #c5caf7;
+  --sm-text: #1f2242;
+  --sm-text-muted: #61658a;
+  --sm-text-light: rgba(255, 255, 255, 0.86);
+  --sm-shadow-soft: 0 20px 40px -24px rgba(90, 98, 255, 0.45);
+  --sm-shadow-card: 0 18px 36px -22px rgba(31, 49, 141, 0.28);
+  --sm-primary: #6366f1;
+  --sm-primary-soft: #eef0ff;
+  --sm-primary-strong: #4f46e5;
+  --sm-secondary: #f66d9b;
+  --sm-secondary-soft: #ffe2f0;
+  --sm-accent: #22d3ee;
+  --sm-accent-soft: #e0fbff;
+  --sm-success: #34d399;
+  --sm-warning: #fbbf24;
+  --sm-gradient-sunset: linear-gradient(135deg, #ff9966, #ff5e62);
+  --sm-gradient-violet: linear-gradient(135deg, #7f53ff, #647bff);
+  --sm-gradient-mint: linear-gradient(135deg, #52ffee, #38bdf8);
+  --sm-gradient-aqua: linear-gradient(135deg, #38bdf8, #6366f1);
+  --sm-gradient-sand: linear-gradient(135deg, #fbbf24, #f97316);
+  --sm-gradient-cloud: linear-gradient(135deg, #e0e7ff, #f8fafc);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--sm-bg);
+  color: var(--sm-text);
+  min-height: 100vh;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

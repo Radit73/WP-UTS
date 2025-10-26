@@ -1,0 +1,77 @@
+.sm-text-muted {
+  color: var(--sm-text-muted);
+}
+
+.sm-text-xs {
+  font-size: 0.75rem;
+}
+
+.sm-meta {
+  font-size: 0.78rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(99, 102, 241, 0.8);
+  margin: 0;
+  font-weight: 600;
+}
+
+.sm-flex {
+  display: flex;
+}
+
+.sm-flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sm-align-center {
+  align-items: center;
+}
+
+.sm-gap-xs {
+  gap: 0.4rem;
+}
+
+.sm-gap-sm {
+  gap: 0.6rem;
+}
+
+.sm-gap-md {
+  gap: 1rem;
+}
+
+.sm-gap-lg {
+  gap: 1.4rem;
+}
+
+.sm-gap-xl {
+  gap: 2rem;
+}
+
+.sm-stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.sm-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sm-flex-1 {
+  flex: 1;
+}
+
+.sm-form-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.sm-badge-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
